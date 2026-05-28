@@ -12,4 +12,4 @@ class Rectangle(Shape):
         return 2 * (self.width + self.height)
     
     def __str__(self):
-        return f"Shape: Rectangle \nArea:{self.get_area()} \nPerimeter: {self.get_perimeter()}"
+        return f"Shape: {self.__class__.__name__} \nArea:{self.get_area()} \nPerimeter: {self.get_perimeter()}"
