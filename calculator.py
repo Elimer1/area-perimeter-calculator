@@ -6,4 +6,4 @@ class Shape:
         pass
 
     def __str__(self):
-        return "Not Initiated"
+        return f"Shape: {self.__class__.__name__} \nArea:{self.get_area()} \nPerimeter: {self.get_perimeter()}"
